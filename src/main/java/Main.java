@@ -40,7 +40,7 @@ public class Main {
                             }
                         }
 
-                        case 3 -> System.out.println("");
+                        case 3 -> System.out.println(" ");
                         default -> System.out.println("Opción invalida");
                     }
                 }
@@ -57,7 +57,7 @@ public class Main {
                     switch (opcionSistema){
                         case 1 -> Proceso.lanzarProcesoSistema("calc.exe");
                         case 2 -> Proceso.lanzarProcesoSistema("notepad.exe");
-                        case 3 -> System.out.println("");
+                        case 3 -> System.out.println(" ");
                         default -> System.out.println("Opción invalida");
                     }
                 }
@@ -109,7 +109,7 @@ public class Main {
                                 System.out.println("Chrome no está instalado en este equipo.");
                             }
                         }
-                        case 6 -> System.out.println("");
+                        case 6 -> System.out.println(" ");
                         default -> System.out.println("Opción invalida");
                     }
                 }
